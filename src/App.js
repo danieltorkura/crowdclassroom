@@ -1,5 +1,9 @@
 import React from "react"
 import Navbar from "./components/Navbar"
+import {
+    BrowserRouter as Router,
+    Route,
+} from "react-router-dom";
 
 
 import './index'
@@ -13,14 +17,19 @@ import Footer from "./components/Footer"
 
 const App = () => {
     return (
+
         <div>
-            <Navbar/>
-            <Header/>
-            <Advantages/>
-            <HowItWorks/>
-            <Courses/>
-            <CallToAction/>
-            <Footer/>
+            <Router>
+                <Route path="/home">
+                    <Navbar />
+                    <Header />
+                    <Advantages />
+                    <HowItWorks />
+                    <Courses />
+                    <CallToAction />
+                    <Footer />
+                </Route>
+            </Router>
         </div>
     )
 }

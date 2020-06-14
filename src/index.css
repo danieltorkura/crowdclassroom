@@ -313,6 +313,7 @@ code {
 }
 
 @media(max-width: 768px) {
+  
   .nav {
     display: none;
   }
@@ -336,8 +337,8 @@ code {
   }
   
   .landing .img__section .img {
-    height: 350px;
-    width: 273px;
+    height: 440px;
+    width: 330px;
     border-radius: 5px;
     background-size: cover;
     margin-top: 80px;
@@ -388,7 +389,7 @@ code {
     margin-top: -30px;
     padding-left: 20px;
     font-size: 15px;
-    width: 80%;
+    width: 95%;
     font-weight: var(--fw-reg);
   }
   
@@ -457,13 +458,13 @@ code {
   margin-left: 2px;
   margin-right: 12px;
   padding: 5px;
-  width: 80%;
+  width: 96%;
   /* width: 23.5% ; */
 }
 
 .courses__intro {
   font-size: 40px;
-  width: 80%;
+  width: 90%;
   color: var(--clr-heading);
 }
 
@@ -478,7 +479,7 @@ code {
   display: flex;
   flex-direction: column;
   
-  width: 85%;
+  width: 100%;
   height: 400px;
   font-size: 50px;
 }
@@ -486,8 +487,8 @@ code {
 .calltoaction__span::after {
   content: '';
   display: block;
-  margin-left: 84px;
-  width: 48.5%;
+  margin-left: 102px;
+  width: 45.5%;
   border-bottom: 5px #ffffff solid;
   margin-top: 0px;
 }
@@ -502,13 +503,13 @@ code {
 .main-footer {
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
+  padding-left: 20px;
   
 }
 
 .main-footer__mission {
   margin-top: -22px;
-  width: 80%;
+  width: 95%;
 }
 
 .main-footer__mission h2 {
@@ -526,17 +527,19 @@ code {
 }
 
 .main-footer__social {
+ 
   padding-top: 2px;
-  margin-left: 1px;
+  margin-left: 30px;
 }
 
 .main-footer__social h3 {
+  
   font-size: 22px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-footer__social a i {
-  padding: 30px;
+  padding: 28px;
   width: 22px;
   font-size: 40px;
   margin-top: -30px;
@@ -548,9 +551,4 @@ code {
   margin-left: -90px;
   margin-top: 95px;
 }
-
-
-  
-
-
 }
