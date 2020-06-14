@@ -5,7 +5,7 @@ import Forex from "../img/forex1.jpg"
 
 const HowItWorks = () => {
     return(
-        <div className="howitworks">
+        <div className="howitworks" id="how">
             <div className="howitworks__img"> 
             <img  alt="Class content" src={Forex}/>
             </div>
