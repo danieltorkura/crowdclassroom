@@ -20,7 +20,7 @@ const App = () => {
 
         <div>
             <Router>
-                <Route path="/home">
+                <Route exact path="/">
                     <Navbar />
                     <Header />
                     <Advantages />
