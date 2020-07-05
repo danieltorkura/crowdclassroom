@@ -6,15 +6,15 @@ const Navbar = () => {
         <Router>
         <div className="header">
 
-            <div class="logo">
-                <Link to="/">CrowdClassroom</Link>
+            <div className="logo">
+                <Link to="/" className='logo-text'>CrowdClassroom</Link>
             </div>
 
             <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"> <Link> to="#how" class="nav__link">How it Works</Link> </li>
-                    <li class="nav__item"> <Link> to="#join" class="nav__link">Join</Link> </li>
-                    <li class="nav__item"> <Link> to="#services" class="nav__link">Stories</Link> </li>  
+                <ul className="nav__list">
+                    <li className="nav__item"> <Link to="#how" className="nav__link">How it works</Link> </li>
+                    <li className="nav__item"> <Link to="#join" className="nav__link">Join</Link> </li>
+                    <li className="nav__item"> <Link to="#services" className="nav__link">Stories</Link> </li>  
                 </ul>
 
             </nav>

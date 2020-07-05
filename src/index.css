@@ -23,8 +23,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .header {
@@ -36,11 +35,16 @@ code {
   padding-top: 10px;
 }
 
-.logo > a {
-  font-size: 40px;
+.logo {
+  font-size: 33px;
   text-decoration: none;
   margin-left: 50px;
   color: var(--clr-blue);
+  margin-top: 5.5px;
+}
+
+.logo-text {
+  text-decoration: none;
 }
 
 .nav__list {
@@ -55,8 +59,8 @@ code {
 
 .nav__link {
   text-decoration: none;
-  margin-left: 15px;
-  color: var(--clr-blue);
+  margin-left: 5px;
+  color: var(--clr-heading);
 }
 
 .landing {
@@ -76,25 +80,25 @@ code {
   width: 350px;
   border-radius: 5px;
   background-size: cover;
-  margin-left: 30px;
+  /* margin-left: 5px; */
 }
 
 .landing .text__section .button {
   width: 150px;
-  height: 36px;
+  height: 40px;
   background-color: var(--clr-blue);
   color: var(--clr-light);
   border-style: none;
   border-radius: 3px;
   font-family: var(--ff-primary);
-  font-weight: 900;
+  font-weight: 600;
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   letter-spacing: 2px;
-  margin-top: -10px;
+  margin-top: 1px;
   /* margin-left: ; */
 }
 
@@ -112,11 +116,13 @@ code {
 .landing .text__section .heading {
   font-size: 100px;
   margin-top: 55px;
+  
 }
 
 .landing .text__section .paragraph {
   font-size: 20px;
   margin-top: -65px;
+  width: 60%;
 }
 
 .advantages__heading {
@@ -140,6 +146,7 @@ code {
   padding-right: 200px;
   font-size: 18px;
   font-weight: var(--fw-reg);
+  line-height: 19px;
 }
 
 .advantages__items {
@@ -169,12 +176,13 @@ code {
 
 .advantages__item h5 {
   font-size: 20px;
+  width: 45%;
 }
 
 .howitworks {
   display: flex;
   flex-direction: row;
-  background-color: var(--bg-clr);
+  background-color: var(--clr-blue);
   /* z-index: 99;
   margin: 7px; */
 }
@@ -192,6 +200,7 @@ code {
 
 .howitworks__text h2 {
   font-size: 40px;
+  /* color:var(--clr-blue) ; */
 }
 
 .howitworks__text ul {
@@ -548,7 +557,6 @@ code {
 .footer__copyright p{
   display: flex;
   justify-content: center;
-  margin-left: -90px;
   margin-top: 95px;
 }
 }
