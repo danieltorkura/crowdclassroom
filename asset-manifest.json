@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/crowdclassroom/static/css/main.ad372405.chunk.css",
+    "main.js": "/crowdclassroom/static/js/main.325edba9.chunk.js",
+    "main.js.map": "/crowdclassroom/static/js/main.325edba9.chunk.js.map",
+    "runtime-main.js": "/crowdclassroom/static/js/runtime-main.74f4c1d0.js",
+    "runtime-main.js.map": "/crowdclassroom/static/js/runtime-main.74f4c1d0.js.map",
+    "static/js/2.0b661619.chunk.js": "/crowdclassroom/static/js/2.0b661619.chunk.js",
+    "static/js/2.0b661619.chunk.js.map": "/crowdclassroom/static/js/2.0b661619.chunk.js.map",
+    "index.html": "/crowdclassroom/index.html",
+    "precache-manifest.e596e4bed559f7fb86c7113a1361765e.js": "/crowdclassroom/precache-manifest.e596e4bed559f7fb86c7113a1361765e.js",
+    "service-worker.js": "/crowdclassroom/service-worker.js",
+    "static/css/main.ad372405.chunk.css.map": "/crowdclassroom/static/css/main.ad372405.chunk.css.map",
+    "static/js/2.0b661619.chunk.js.LICENSE.txt": "/crowdclassroom/static/js/2.0b661619.chunk.js.LICENSE.txt",
+    "static/media/forex1.jpg": "/crowdclassroom/static/media/forex1.1f01c3b0.jpg",
+    "static/media/headerimg.jpg": "/crowdclassroom/static/media/headerimg.9148e74a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74f4c1d0.js",
+    "static/js/2.0b661619.chunk.js",
+    "static/css/main.ad372405.chunk.css",
+    "static/js/main.325edba9.chunk.js"
+  ]
+}
