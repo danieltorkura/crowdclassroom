@@ -18,10 +18,19 @@ const useStyles = makeStyles({
   },
   title: {
     fontSize: 14,
+    fontWeight: 700,
+    color: 'black',
   },
   pos: {
     marginBottom: 12,
+    color: 'black',
+    fontWeight: 700,
   },
+  course: {
+    border: 3,
+    borderStyle: 'solid',
+    color: '#000000'
+  }
 });
 
 export default function SingleCourse(props) {
@@ -43,7 +52,7 @@ export default function SingleCourse(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Get course</Button>
+        <Button size="small" className={classes.course}>Get course</Button>
       </CardActions>
     </Card>
     </React.Fragment>

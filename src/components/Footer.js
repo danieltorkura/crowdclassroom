@@ -6,7 +6,9 @@ const Footer = () => {
             <div className="main-footer">
                 <div className="main-footer__mission">
                     <h2>CrowdClassroom</h2>
-                    <p>Our mission is to bring affordable technology education to people everywhere in order to help them achieve their dreams and change the world.</p>
+                    <p>Our mission is to provide an easy to learn online platform for any one to learn from professionals at their own time.
+                        {/* bring affordable technology education to people everywhere in order to help them  */}
+                        {/* achieve their dreams and change the world. */}</p>
                 </div>
                 <div className="main-footer__social">
                     <h3>Follow us on social media</h3>

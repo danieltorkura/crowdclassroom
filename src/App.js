@@ -1,9 +1,9 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-import {
-    BrowserRouter as Router,
-    Route,
-} from "react-router-dom";
+// import {
+//     BrowserRouter as Router,
+//     Route,
+// } from "react-router-dom";
 
 
 import './index'
@@ -19,8 +19,8 @@ const App = () => {
     return (
 
         <div>
-            <Router>
-                <Route exact path="/">
+            {/* <Router> */}
+                {/* <Route exact path="/"> */}
                     <Navbar />
                     <Header />
                     <Advantages />
@@ -28,8 +28,8 @@ const App = () => {
                     <Courses />
                     <CallToAction />
                     <Footer />
-                </Route>
-            </Router>
+                {/* </Route> */}
+            {/* </Router> */}
         </div>
     )
 }

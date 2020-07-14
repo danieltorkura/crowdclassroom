@@ -13,8 +13,8 @@ const Navbar = () => {
             <nav class="nav">
                 <ul className="nav__list">
                     <li className="nav__item"> <Link to="#how" className="nav__link">How it works</Link> </li>
-                    <li className="nav__item"> <Link to="#join" className="nav__link">Join</Link> </li>
-                    <li className="nav__item"> <Link to="#services" className="nav__link">Stories</Link> </li>  
+                    <li className="nav__item"> <Link to="#services" className="nav__link">Stories</Link> </li>
+                    <li className="nav__item join"> <Link to="#join" className="nav__link">Join</Link> </li>  
                 </ul>
 
             </nav>
